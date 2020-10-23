@@ -1,0 +1,531 @@
+body {
+  margin: 0;
+  background: #000; 
+  display: flex;
+}
+
+video { 
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+   right: 0;
+   bottom: 0;
+    z-index: -100;
+  background-size: cover;
+}
+
+
+
+#conteneur{
+	display: flex;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 100;
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	padding: 2rem;
+	margin:2rem;
+	float: center;
+	width: 100%;
+    flex-direction: column;
+    grid-row-gap: 30px;
+}
+
+
+
+.element1{
+   font-size: 300%;
+text-underline-position: auto;
+text-align: center;
+
+
+}
+
+
+.element2{
+
+	font-size: 300%;
+	text-align: center;
+    
+}
+
+.element3{
+
+	text-align: center;
+	font-size: 300%;
+}
+
+.element4{
+
+	text-align: center;
+	font-size: 300%;
+}
+
+#nomprincipale{
+	text-align: center;
+	font-size: 300%;
+
+
+}
+
+.listes1{
+    
+	display: flex;
+
+}
+
+.listes2{
+	display: flex;
+	align-self: flex-end;
+}
+
+
+.person-numbers-item{
+    padding: 1.25rem 0;
+    text-align: center;
+    border: 1px solid #ececec;
+    margin-bottom: .625rem;
+ }
+
+
+
+.gd-gap-10 {
+    grid-gap: .625rem;
+}
+
+
+.gd {
+    display: grid;
+}
+	
+
+
+.number{
+    color: #fecc00;
+    font-size: 1.5625rem;
+    margin-bottom: .9375rem;
+    letter-spacing: 1px;
+
+}
+
+.light {
+    color: #b3b3b3;
+}
+
+#titre1{
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	font-size: 150%;
+}
+
+
+.listes4{
+	display: flex;
+	align-self: flex-end;
+}
+
+.leparrain{
+	position: absolute;
+	width: 100px;
+	height: 150px;
+	right: 550px;
+	top: 1360px;
+}
+.leparrain:hover {
+width:130px;
+height:190px;
+}
+
+.serpico{
+	position: absolute;
+	width: 100px;
+	height: 150px;
+	right: 400px;
+	top: 1360px;
+}
+.serpico:hover {
+width:130px;
+height:190px;
+}
+
+.bobby{
+	position: absolute;
+	width: 100px;
+	height: 150px;
+	right: 250px;
+	top: 1360px;
+}
+.bobby:hover {
+width:130px;
+height:190px;
+}
+
+.panik{
+	position: absolute;
+	width: 100px;
+	height: 150px;
+	right: 100px;
+	top: 1360px;
+}
+.panik:hover {
+width:130px;
+height:190px;
+}
+
+.scarface1{
+
+	position: absolute;
+	width: 100px;
+	height: 150px;
+	left: 90px;
+	top: 1550px;
+}
+
+.scarface1:hover {
+width:130px;
+height:190px;
+}
+
+.revolution1{
+
+	position: absolute;
+	width: 100px;
+	height: 150px;
+	left: 260px;
+	top: 1550px;
+}
+.revolution1:hover {
+width:130px;
+height:190px;
+}
+
+
+.seaoflove{
+	position: absolute;
+	width: 100px;
+	height: 150px;
+	left: 430px;
+	top: 1550px;
+}
+.seaoflove:hover {
+width:130px;
+height:190px;
+}
+
+.frankie1{
+
+	position: absolute;
+	width: 100px;
+	height: 150px;
+	right: 550px;
+	top: 1750px;
+
+}
+.frankie1:hover {
+width:130px;
+height:190px;
+}
+
+
+.weekend1 {
+    position: absolute;
+	width: 100px;
+	height: 150px;
+	right: 400px;
+	top: 1750px;
+
+}
+.weekend1:hover {
+width:130px;
+height:190px;
+}
+
+.heataffiche{
+position: absolute;
+	width: 100px;
+	height: 150px;
+	right: 250px;
+	top: 1750px;
+}
+.heataffiche:hover {
+width:130px;
+height:190px;
+}
+
+.lookingfor{
+    position: absolute;
+	width: 100px;
+	height: 150px;
+	right:100px;
+	top: 1750px;
+
+}
+.lookingfor:hover {
+width:130px;
+height:190px;
+}
+
+
+.donnieb{
+position: absolute;
+	width: 100px;
+	height: 150px;
+	right: 550px;
+	top: 1920px;
+}
+.donnieb:hover {
+width:130px;
+height:190px;
+}
+
+.associe{
+    position: absolute;
+	width: 100px;
+	height: 150px;
+	right: 400px;
+	top: 1920px;
+
+}
+.associe:hover {
+width:130px;
+height:190px;
+}
+
+
+.revelation{
+position: absolute;
+	width: 100px;
+	height: 150px;
+	right: 250px;
+	top: 1920px;
+}
+.revelation:hover {
+width:130px;
+height:190px;
+}
+
+
+.dimanche{
+position: absolute;
+	width: 100px;
+	height: 150px;
+	right:100px;
+	top: 1920px;
+
+}
+.dimanche:hover {
+width:130px;
+height:190px;
+}
+
+
+.insomia1{
+position: absolute;
+	width: 100px;
+	height: 150px;
+	left: 90px;
+	top: 2170px;
+
+}
+.insomia:hover {
+width:130px;
+height:190px;
+}
+
+
+.simone1{
+position: absolute;
+	width: 100px;
+	height: 150px;
+	left: 260px;
+	top: 2170px;
+
+}
+.simone1:hover {
+width:130px;
+height:190px;
+}
+
+
+.recrue{
+position: absolute;
+	width: 100px;
+	height: 150px;
+	left: 430px;
+	top: 2170px;
+}
+.recrue:hover {
+width:130px;
+height:190px;
+}
+
+	
+
+.ocean{
+
+	position: absolute;
+	width: 100px;
+	height: 150px;
+	left: 600px;
+	top: 2170px;
+}
+.ocean:hover {
+width:130px;
+height:190px;
+}
+
+
+.flic{
+  position: absolute;
+	width: 100px;
+	height: 150px;
+	right: 550px;
+	top: 2390px;
+
+}
+.flic:hover {
+width:130px;
+height:190px;
+}
+
+.affranchis{
+ position: absolute;
+	width: 100px;
+	height: 150px;
+	right: 400px;
+	top: 2390px;
+
+}
+.affranchis:hover {
+width:130px;
+height:190px;
+}
+
+.manglehorn1{
+position: absolute;
+	width: 100px;
+	height: 150px;
+	right: 250px;
+	top: 2390px;
+
+}
+.manglehorn1:hover {
+width:130px;
+height:190px;
+}
+
+
+.danny{
+position: absolute;
+	width: 100px;
+	height: 150px;
+	right: 100px;
+	top: 2390px;
+
+}
+.danny:hover {
+width:130px;
+height:190px;
+}
+
+
+.hollywood{
+position: absolute;
+	width: 100px;
+	height: 150px;
+	right: 475px;
+	top: 2560px;
+
+}
+.hollywood:hover {
+width:130px;
+height:190px;
+}
+
+
+.hunters{
+position: absolute;
+	width: 100px;
+	height: 150px;
+	right: 180px;
+	top: 2560px;
+
+}
+.hunters:hover {
+width:130px;
+height:190px;
+}
+
+
+.conteneur1{		
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.golden{
+    font-size: 150%;
+	padding:20px;
+
+}
+
+.golden2{
+width: 100px;
+height: 100px;
+
+}
+
+
+.oscars{
+font-size: 150%;
+
+
+}
+.oscars1{
+width: 100px;
+height: 100px;
+
+}
+
+.bafta{
+font-size: 150%;
+
+
+}
+.bafta1{
+width: 80px;
+height: 110px;
+
+}
+
+.emmy{
+font-size: 150%;
+
+
+}
+.emmy1{
+width: 80px;
+height: 110px;
+
+}
+
+.trophee{
+font-size: 150%;
+
+
+}
+.trophee1{
+width: 80px;
+height: 110px;
+
+}
+
+.sources{
+	float:left;
+}
+
+.leparrain:hover {
+width:130px;
+height:190px;
+}
